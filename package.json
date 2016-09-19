@@ -1,0 +1,25 @@
+{
+  "name": "js-full-stack",
+  "version": "0.0.1",
+  "description": "Test all my favorite technologies as a JS full stack developer.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZengJunyong/js-full-stack.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "angularjs",
+    "mongodb"
+  ],
+  "author": "yong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZengJunyong/js-full-stack/issues"
+  },
+  "homepage": "https://github.com/ZengJunyong/js-full-stack#readme"
+}
