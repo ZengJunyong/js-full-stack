@@ -31,6 +31,18 @@ app.use(function(req, res,next) {
 app.use('/', routes);
 app.use('/users', users);
 
+app.get('/users/:userId/books/:bookId', function(req, res) {
+  res.send(req.params);
+});
+
+app.get('/flights/:from-:to', function(req, res) {
+  res.send(req.params);
+});
+
+app.get('/plantae/:genus.:species', function(req, res) {
+  res.send(req.params);
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
